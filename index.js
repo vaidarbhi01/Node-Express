@@ -11,6 +11,3 @@ app.use(express.static(path.join(__dirname, 'public')))
 const myRoutes = require('./routes/index')
 app.use('/', myRoutes)
 app.listen(1000)
-
-
-//Mustache is a logic-less templating engine that works great with Node.js for rendering HTML (or other text formats) from data.

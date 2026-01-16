@@ -8,7 +8,7 @@ router.get('/', (req, res, next) => {
 
 
 router.get('/home', (req, res, next) => {
-    res.render('home', null) //render take 2 arguments ::: 1) template 2) data
+    res.render('home', null) 
 })
 
 
